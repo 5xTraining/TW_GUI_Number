@@ -5,14 +5,10 @@ module TaxNumber
     MULTIPLIER = [1,2,1,2,1,2,4,1].freeze
 
     def self.tax_number
-      validate = false
-
-      while !validate do
-        tax_number = 8.times.map { rand(1..9) }.join
-        validate = true if valid?(tax_number)
-      end
-
-      tax_number
+      tax_number = 8.times.map { rand(1..9) }.join
+      return tax_number if valid?(tax_number)
+      
+      self.tax_number
     end
 
     private
