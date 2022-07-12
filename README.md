@@ -1,5 +1,7 @@
 # 台灣統一編號產生器
 
+自動產生台灣統一編號，用在 RSpec 避免 Model Validation 重複問題
+
 # 環境需求
 
 - Ruby 2.6+
