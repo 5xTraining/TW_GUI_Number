@@ -13,6 +13,8 @@
 # 使用方法
 
 ```ruby
+require 'tax_number/generator'
+
 TaxNumber::Generator.tax_number => "57827987"
 ```
 
