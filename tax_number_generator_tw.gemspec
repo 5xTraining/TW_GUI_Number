@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |s|
-  s.name        = "tax_number_tw"
+  s.name        = "tax_number_generator_tw"
   s.version     = "0.0.1"
   s.summary     = "Generate TW tax number"
   s.description = "Generate TW tax number randomly"

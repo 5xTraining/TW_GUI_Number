@@ -8,7 +8,7 @@
 
 # 安裝方式
 
-`gem install tax_number_tw`
+`gem install tax_number_generator_tw`
 
 # 使用方法
 
