@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'TW_GUI_Number'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = 'Generate TW GUI number & Validate'
   s.description = 'Generate TW GUI number randomly and validate GUI number if correctly'
   s.authors     = ['RobertChang']

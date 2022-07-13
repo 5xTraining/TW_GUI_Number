@@ -30,5 +30,7 @@ module TW
         (digits[i] * MULTIPLIER[i]).divmod(10).inject(0, &:+)
       end.sum
     end
+
+    private_class_method :calculate_special_sum
   end
 end
