@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'tw_vat_number'
-  s.version     = '0.0.2'
+  s.version     = '0.1.0'
   s.summary     = 'Generate TW VAT number & Validate'
   s.description = 'Generate TW VAT number randomly and validate VAT number if correctly'
   s.authors     = ['RobertChang']

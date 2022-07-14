@@ -17,7 +17,7 @@ require 'tw/vat_number'
 
 TW::VATNumber.generate => "57827987"
 
-TW::VATNumber.valid?('00000022') => true
+TW::VATNumber.valid?(00000022) => true
 ```
 
 # Bug or PR
