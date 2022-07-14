@@ -8,23 +8,23 @@
 
 # 安裝方式
 
-`gem install TW_GUI_Number`
+`gem install tw_vat_number`
 
 # 使用方法
 
 ```ruby
-require 'TW/gui_number'
+require 'tw/vat_number'
 
-TW::GUINumber.generate => "57827987"
+TW::VATNumber.generate => "57827987"
 
-TW::GUINumber.valid?('00000022') => true
+TW::VATNumber.valid?('00000022') => true
 ```
 
 # Bug or PR
 
 任何 Bug 回報和 PR 都歡迎在這邊開 issue 或是直接發 PR
 
-[https://github.com/5xTraining/TW_GUI_Number](https://github.com/5xTraining/TW_GUI_Number) 
+[https://github.com/5xTraining/tw_vat_number](https://github.com/5xTraining/tw_vat_number) 
 
 # License
 

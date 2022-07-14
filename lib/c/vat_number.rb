@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module TW
-  module GUINumber
+  module VATNumber
     MULTIPLIER = [1, 2, 1, 2, 1, 2, 4, 1].freeze
 
     def self.generate
